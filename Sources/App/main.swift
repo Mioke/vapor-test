@@ -13,4 +13,8 @@ drop.get("hello") { request in
     return "Hello, world!"
 }
 
+drop.get("open", "me") { request in
+    return "I love U, panpan"
+}
+
 drop.run()
